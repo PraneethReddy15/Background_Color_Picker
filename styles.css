@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav span{
+    font-family: cursive;
+    font-size: 40px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .underline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline #ff1234 dashed;
+}
+.container{
+    background-color: aliceblue;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    padding: 15px;
+
+}
+#btn
+{
+    padding: 10px 35%;
+    margin-top: 10px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    color:white;
+    font-size: 15px;
+    background-color: rgb(0, 0, 0);
+}
+.btn:hover{
+    color: black;
+    background-color: #FFFFFF;
+}
