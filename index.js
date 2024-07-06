@@ -13,7 +13,23 @@ btn.addEventListener("click",function()
     value.textContent=hexColor;
     document.body.style.backgroundColor=hexColor;
 });
-
 function getRandom(){
     return Math.floor(Math.random()*valueArr.length);
+}
+
+// -------COPY-------
+const msg = document.getElementById('message');
+msg.style.visibility = 'visible';
+function copyText() {
+    const hexColor=document.body.style.backgroundColor;
+    navigator.clipboard.writeText(hexColor).then(() => {
+        const message = document.getElementById('message');
+                message.style.display = 'block';
+                
+                setTimeout(() => {
+                    message.style.display = 'none';
+                }, 2000);
+    }).catch(err => {
+        console.error('Failed to copy text: ', err);
+    });
 }
