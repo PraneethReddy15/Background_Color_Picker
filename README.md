@@ -8,7 +8,10 @@ This is a simple web-based tool that allows users to pick a background color for
 - Copy the selected color's RGB to the clipboard.
 - Display a message indicating that the color code has been copied.
 
-## Getting Started
+## Deployment
+
+The calculator app is deployed and accessible [here](https://randomcolorpicker.vercel.app/).
+
 
 ### Prerequisites
 
