@@ -10,7 +10,7 @@ This is a simple web-based tool that allows users to pick a background color for
 
 ## Deployment
 
-The calculator app is deployed and accessible [here](https://randomcolorpicker.vercel.app/).
+The tool is deployed and accessible [here](https://randomcolorpicker.vercel.app/).
 
 
 ### Prerequisites
